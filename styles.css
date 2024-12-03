@@ -1,0 +1,181 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fdf4e3;
+    color: #5b4636;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #deb887;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5b4636;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #5b4636;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 30px;
+}
+
+.nav-links li a:hover {
+    color: #8b4513;
+}
+
+/* Carousel */
+.carousel {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #5b4636;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* To-Do List App */
+.app-container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #8b4513;
+}
+.img{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.input-section {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#taskInput {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #deb887;
+    border-radius: 5px;
+}
+
+#addTaskBtn {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #deb887;
+    color: #5b4636;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#addTaskBtn:hover {
+    background-color: #8b4513;
+    color: #fff;
+}
+
+#taskList {
+    list-style: none;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#taskList li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border-left: 5px solid #deb887;
+    display: flex;
+    justify-content: space-between;
+}
+
+#taskList li button {
+    background: none;
+    border: none;
+    color: #8b4513;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+#taskList li button:hover {
+    color: #5b4636;
+}

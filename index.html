@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MADZ To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://i.pinimg.com/originals/1f/3f/4c/1f3f4ce973d946578567f190e2773709.png" class="img">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Tasks</a></li>
+        </ul>
+    </nav>
+
+    <div class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('images/carousel1.jpg');">
+                
+            </div>
+            <div class="carousel-item" style="background-image: url('images/carousel2.jpg');">
+                
+            </div>
+            <div class="carousel-item" style="background-image: url('images/carousel3.jpg');">
+               
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+   
+    <div class="app-container">
+        <header>
+            <h1>My To-Do List</h1>
+        </header>
+        <main>
+            <div class="input-section">
+                <input type="text" id="taskInput" placeholder="Add a new task..." />
+                <button id="addTaskBtn">Add Task</button>
+            </div>
+            <ul id="taskList"></ul>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
