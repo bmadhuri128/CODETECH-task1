@@ -24,6 +24,7 @@ The objective of this project is to create a **personal portfolio website** that
 - **Name**: B. Madhuri
 - **Company**: CodTech IT Company
 - **Employee ID**: CT12DS2548
+- **Domain**: FRONTEND DEVELOPMENT 
 - **Duration**: October 5th, 2024 to December 5th, 2024
 
 ## Installation
