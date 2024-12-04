@@ -27,8 +27,5 @@ The objective of this project is to create a **personal portfolio website** that
 - **Domain**: FRONTEND DEVELOPMENT 
 - **Duration**: October 5th, 2024 to December 5th, 2024
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/portfolio.git
+
 ![Screenshot 2024-12-04 000636](https://github.com/user-attachments/assets/fc39ff63-ced0-4348-a2d8-6fa1086514d6)
